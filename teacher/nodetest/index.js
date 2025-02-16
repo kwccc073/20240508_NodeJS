@@ -1,8 +1,10 @@
-// 將 a.js 的 export default 引用進來，取名為 a
-// import 變數 from 來源
-// from 'a.js'   ---> 引用 a.js 套件
-// from './a.js' ---> 引用 a.js 檔案
-// import 必須要在檔案最上面
+// import 必須要寫在檔案最上面
+// 將 a.js 的 export default 引用進來，取名為 a-------------
+/* 
+   import 變數 from 來源
+   來源為 'a.js'   ---> 表示是引用 名為a.js 的套件
+   來源為 './a.js' ---> 表示是引用 名為a.js 的檔案
+*/
 import a from './a.js'
 
 // 一次引用所有 export，取名為 b
@@ -18,6 +20,7 @@ import c, * as cc from './c.js'
 // 只取 export c1 重命名為 cc1
 import { c1 as cc1 } from './c.js'
 
+// 對檔案a.js 的處理-------------------------------------
 console.log('index - a.a1: ' + a.a1)
 console.log('index - a.add: ' + a.add())
 a.a1 = 100
@@ -31,6 +34,7 @@ console.log('index - a.a3: ' + a.a3)
 console.log('index - a.a4: ' + a.a4)
 a.log()
 
+// 對檔案b.js 的處理-------------------------------------
 console.log('index - b.b1: ' + b.b1)
 console.log('index - b1: ' + b1)
 console.log('index - bb1: ' + bb1)
