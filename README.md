@@ -20,4 +20,15 @@ NodeJS、LINE機器人
 
 
 ## LINE機器人
-### 建立LINE機器人帳號 (影片02:05:13)
+### 建立LINE機器人帳號 - Line developer (影片02:16:22)
+### 建立資料夾 - line (影片02:20:10)
+
+### 安裝套件 - 指令為： npm i 套件名稱 (影片02:21:50)
+#### line bot (影片02:31:48) － 可參考<a href="https://www.npmjs.com/package/linebot">連結</a>
+* 引入linebot套件 (影片02:33:01)
+  ```import linebot from "linebot"```
+* 機器人的channelId、channelSecret、channelAccessToken (影片02:34:06)
+#### dotenv (影片02:41:42) - 可參考<a href="https://www.npmjs.com/package/dotenv">連結</a>
+* dotenv的功用說明 (影片02:44:38)
+### 建立檔案 - index.js (影片02:32:02)
+### 環境設定檔 - .env (影片02:34:30)
