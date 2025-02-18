@@ -20,6 +20,7 @@ NodeJS、LINE機器人
 
 
 ## LINE機器人
+### 機器人運作方式圖說 (影片03:28:38)
 ### 建立LINE機器人帳號 - Line developer (影片02:16:22)
 ### 建立資料夾 - line (影片02:20:10)
 
@@ -29,6 +30,8 @@ NodeJS、LINE機器人
   ```import linebot from "linebot"```
 * 機器人的channelId、channelSecret、channelAccessToken (影片02:34:06)
 * 開啟機器人 ```bot.listen()``` (影片03:27:13)
+* 機器人事件 ```bot.on(事件名稱, function)``` (影片03:31:30)
+* 回覆訊息 ```event.reply() (影片03:57:00)
 
 #### dotenv (影片02:41:42) - 可參考<a href="https://www.npmjs.com/package/dotenv">連結</a>
 * dotenv的功用說明 (影片02:44:38)
@@ -36,6 +39,13 @@ NodeJS、LINE機器人
 #### eslint (影片02:52:35)
 * 指令 npx eslint --init (影片03:04:11)
 * 指令 npm init @eslint/config@1.0 (影片03:10:52)
+* 存檔自動修復eslint的排版錯誤 (影片04:47:33)
+
+#### axios (影片04:19:43)
+#### nodemon (影片04:28:39)
 
 ### 建立檔案 - index.js (影片02:32:02)
 ### 環境設定檔 - .env (影片02:34:30)
+### 連接阜 (影片03:39:29)
+### 實測 - 開啟終端機 + 傳訊息給機器人
+### Postman (影片04:11:26)
