@@ -1,3 +1,4 @@
+// 此檔案為具名引用的範例 (影片01:30:40)
 export const b1 = 1
 export const b2 = 2
 export let b3 = 3
